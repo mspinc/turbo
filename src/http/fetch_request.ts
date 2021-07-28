@@ -118,6 +118,7 @@ export class FetchRequest {
 
   get defaultHeaders() {
     return {
+      "X-EditFlow-Tab": "yes",
       "Accept": "text/html, application/xhtml+xml"
     }
   }

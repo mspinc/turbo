@@ -18,7 +18,7 @@ export function getExtension(url: URL) {
 }
 
 export function isHTML(url: URL) {
-  return !!getExtension(url).match(/^(?:|\.(?:htm|html|xhtml))$/)
+  return !!getExtension(url).match(/^(?:|\.(?:htm|html|php|xhtml))$/)
 }
 
 export function isPrefixedBy(baseURL: URL, url: URL) {
